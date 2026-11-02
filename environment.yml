@@ -1,0 +1,10 @@
+name: metad
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8.19
+  - pytorch=1.12.1
+  - cpuonly
+  - numpy=1.24.4
+  - mkl=2024.0.0
